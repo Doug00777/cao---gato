@@ -1,0 +1,474 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #313131;
+    padding: 10px;
+    position: sticky; 
+    top: 0px;
+} 
+
+.logo {
+    display: flex;
+    justify-content: left;
+}
+
+.logo img {
+    width: 30px;
+}
+
+span {
+    padding: 5px 10px;
+    text-align: center;
+    color: #ffc800;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px;
+    gap: 20px;
+}
+
+ul a {
+    list-style: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+ul a:hover {
+    color: #ffc800;
+}
+
+.iniciar {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    background-color: #ffc800;
+    padding: 150px 300px;
+    gap: 20px;
+}
+
+.container-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 48px;
+    padding-bottom: 7px;
+}
+
+.text-content p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+    line-height: 170%;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+} 
+
+.btn-visita {
+    padding: 7px;
+    font-size: 18px;
+    background-color: blue;
+    border: 2px solid green;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-visita:hover {
+    background-color: rgb(154, 154, 243);
+    transition: 0.3s;
+}
+
+.btn-servicos {
+    padding: 7px;
+    font-size: 18px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn-servicos:hover {
+    background-color: #fff;
+    color: #333;
+    transition: 0.3s;
+}
+
+.servico {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 150px 300px;
+}
+
+video {
+    width: 90%;
+    padding-bottom: 50px;
+}
+
+.t-segundo h2 {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.t-segundo p {
+    text-align: center;
+    line-height: 160%;
+    font-size: 1.3rem;
+}
+
+.mais {
+    display: flex;
+    justify-content: end;
+    width: 180%;
+}
+
+.btn-mais {
+    background-color: #ffc800;
+    font-size: 18px;
+    padding: 7px;
+}
+
+.btn-mais:hover {
+    background-color: #000;
+    color: #ffc800;
+    transition: 0.3s;
+}
+
+.cuidados {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #ffc800;
+    padding: 150px 300px;
+}
+
+.container-tratamento h2 {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.container-tratamento p {
+    text-align: center;
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.banho {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+}
+
+.banho h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 10px;
+}
+
+.box p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.banho img {
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+}
+
+.odonto {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+}
+
+.odonto img {
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+}
+
+.odonto h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.odonto p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.consulta {
+    display: flex;
+    flex-direction: column;
+    background-color: #313131;
+    color: #fff;
+}
+
+.consulta h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.consulta p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.consulta img {
+    align-items: center;
+    width: 250px;
+    padding: 10px;
+}
+
+.medico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 150px 300px;
+}
+
+.text-medico h2 {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 15px;
+}
+
+.text-medico h3 {
+    text-align: center;
+    font-size: 1.8rem; 
+    padding-bottom: 20px;
+}
+
+.md-veterinario {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.vet-01 {
+    display: flex;
+    flex-direction: column;
+}
+
+.vet-01 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.vet-01 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.vet-01 img {
+    align-items: center;
+    width: 270px;
+    padding: 10px;
+}
+
+
+.vet-02 {
+    display: flex;
+    flex-direction: column;
+}
+
+.vet-02 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.vet-02 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.vet-02 img {
+    align-items: center;
+    width: 400px;
+    padding: 10px;
+}
+
+.vet-03 {
+    display: flex;
+    flex-direction: column;
+}
+
+.vet-03 h3 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 10px;
+}
+
+.vet-03 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 10px;
+}
+
+.vet-03 img {
+    align-items: center;
+    width: 270px;
+    padding: 10px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social img {
+    width: 40px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffc800;
+    padding: 150px 90px;
+}
+
+.cat {
+    align-items: center;
+}
+
+.cat img {
+    width: 300px;
+}
+
+.dog {
+    align-items: center;
+}
+
+form {
+    background-color: #313131;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+form h2 {
+    padding: 10px;
+}
+
+input {
+    background-color: #313131;
+    padding: 10px;
+    font-size: 16px;
+    width: 97%;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+input:hover {
+    border: 3px solid #ffc800;
+}
+
+textarea {
+    background-color: #313131;
+    padding: 10px;
+    font-size: 16px;
+    width: 97%;
+    border-radius: 15px;
+    margin: 5px;
+    margin-bottom: 15px;
+    border: none;
+}
+
+textarea:hover {
+    border: 3px solid #ffc800;
+}
+
+.formulario {
+    background-color: #ffc800;
+    width: 97%;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.formulario:hover {
+    background-color: #816605;
+    transition: 0.5s;
+}
+
+.dog img {
+    width: 300px;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}

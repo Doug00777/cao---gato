@@ -174,7 +174,7 @@ video {
 .container-tratamento p {
     text-align: center;
     font-size: 1.3rem;
-    padding-bottom: 20px;
+    padding-bottom: 60px;
 }
 
 .box {
@@ -188,6 +188,12 @@ video {
     flex-direction: column;
     background-color: #000;
     color: #fff;
+    transform: translatey(0);
+    transition: transform 0.4s;
+}
+
+.banho:hover {
+    transform: translatey(-50px);
 }
 
 .banho h3 {
@@ -217,7 +223,13 @@ video {
     flex-direction: column;
     background-color: #000;
     color: #fff;
+    transform: translatey(0);
+    transition: transform 0.4s;
 }
+
+.odonto:hover: {
+    transform: translatey(-50px);
+}   
 
 .odonto img {
     align-items: center;
@@ -246,6 +258,12 @@ video {
     flex-direction: column;
     background-color: #313131;
     color: #fff;
+    transform: translatey(0);
+    transition: trasform 0.4s;
+}
+
+.consulta:hover: {
+    transform: translatey(-50px); 
 }
 
 .consulta h3 {
@@ -420,6 +438,7 @@ form h2 {
 
 input {
     background-color: #313131;
+    color: #fff;
     padding: 10px;
     font-size: 16px;
     width: 97%;
@@ -433,6 +452,7 @@ input:hover {
 
 textarea {
     background-color: #313131;
+    color: #fff; 
     padding: 10px;
     font-size: 16px;
     width: 97%;
